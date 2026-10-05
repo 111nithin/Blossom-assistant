@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="#FFFFFF"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/txtOrderCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtOrderPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone:" />
+
+    <TextView
+        android:id="@+id/txtOrderAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="Address:" />
+
+    <TextView
+        android:id="@+id/txtOrderDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date &amp; Time:" />
+
+    <TextView
+        android:id="@+id/txtOrderDesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design:" />
+
+    <TextView
+        android:id="@+id/txtOrderPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:textColor="#2E7D32"
+        android:textStyle="bold" />
+</LinearLayout>
+

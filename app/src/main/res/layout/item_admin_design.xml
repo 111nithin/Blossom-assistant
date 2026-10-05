@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="#FFFFFF"
+    android:elevation="4dp"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgAdminDesign"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtAdminDesignName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Design Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAdminDesignPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="₹0"
+            android:textColor="#2E7D32" />
+
+        <TextView
+            android:id="@+id/txtAdminDesignCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wedding" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnAdminDesignEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/btnAdminDesignDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Delete" />
+    </LinearLayout>
+</LinearLayout>
+
